@@ -1,9 +1,7 @@
 # create transactions for all active and owner changes
 for producer in $(cat blacklist); do
-    #cleos set account permission -s -j -d $producer active EOS1111111111111111111111111111111114T1Anm -p $producer@active > $producer.active
-    #cleos set account permission -s -j -d $producer owner EOS1111111111111111111111111111111114T1Anm -p $producer@owner > $producer.owner
-    cleos set account permission -s -j -d $producer active EOS7P1TmuGBdcShxEvweLYkVMYpxpUEeUubjak22mqvAwKDanfcdM -p $producer@active > $producer.active
-    cleos set account permission -s -j -d $producer owner EOS7P1TmuGBdcShxEvweLYkVMYpxpUEeUubjak22mqvAwKDanfcdM -p $producer@owner > $producer.owner
+    cleos set account permission -s -j -d $producer active EOS1111111111111111111111111111111114T1Anm -p $producer@active > $producer.active
+    cleos set account permission -s -j -d $producer owner EOS1111111111111111111111111111111114T1Anm -p $producer@owner > $producer.owner
 done
 
 # merge all the actions into arrays of actives and owner
