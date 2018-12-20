@@ -1,0 +1,4 @@
+*.tmp
+*.trx
+producers.json
+eosio.json
