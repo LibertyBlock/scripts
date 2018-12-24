@@ -2,3 +2,5 @@
 *.trx
 producers.json
 eosio.json
+node_modules
+LogRegister.csv
