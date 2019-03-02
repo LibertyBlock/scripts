@@ -1,0 +1,9 @@
+{
+    "threshold": 2,
+    "keys": [],
+    "accounts": [
+        { "permission": { "actor": "eosiochicken", "permission": "active" }, "weight": 1 },
+        { "permission": { "actor": "samkazsamkaz", "permission": "active" }, "weight": 1 },
+        { "permission": { "actor": "warrenbuffet", "permission": "active" }, "weight": 1 }
+    ]
+}
